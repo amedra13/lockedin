@@ -1,0 +1,109 @@
+.landingpage_header{
+    color: $main_color_grn;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $main_color_wht;
+    font-family: $main_font;
+}
+
+.landingpage_wrapper{
+    // border: 3px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:$main_width;
+    
+}
+.landingpage_wrapper > div{
+    display: flex;
+    height: 100%;
+    font-size: large;
+    align-items: center;
+    font-weight: 600;
+}
+.landingpage_wrapper> div:nth-child(2){
+    // border: 2px solid pink;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 600;
+    flex: 1;
+}
+.landingpage_wrapper> div:nth-child(2) > p{
+    margin-bottom:3px;
+    transition: all 250ms;
+    padding: 0 10px;
+}
+.landingpage_wrapper> div:nth-child(2) > p:hover{
+    color: $main_color_grn;
+    border-bottom: 3px solid $main_color_grn;
+    margin-bottom: 0;
+}
+
+.landingpage_wrapper > div:last-child p{
+   margin: 0 15px;
+   font-weight: 600;
+}
+
+// --------------------> Landing Page Title
+
+.landingpage_title{
+    @include landingpage_containers;
+    height:70vh;
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    color: $main_color_wht;
+}
+.landingpage_title > div:first-child {
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 600;
+    font-family: $main_font_dash;
+    
+}
+
+// --------------------> Landing About  
+
+.landingpage_about{
+    @include landingpage_containers;
+    height: 80vh;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    font-family: $main_font;
+}
+
+
+.landingpage_about > .about_title{
+    grid-column: 1/span 2;
+    text-align: left;
+    font-size:2rem;
+    padding: 5%;
+}
+.landingpage_about > .about_description{
+    grid-column: 3/span 2;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    padding:5%;
+}
+
+.landingpage_about > .about_description > p:last-child{
+    color: $main_color_grn;
+    margin: 30px 0;
+}
+
+.landingpage_about > .test{
+    grid-column: 1/span 4;
+
+}
+
+.highlight{
+    color:$main_color_grn;
+
+}

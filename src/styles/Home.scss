@@ -1,0 +1,17 @@
+@import '../styles/globals.scss';
+@import '../styles/mixins.scss';
+
+  
+  .app {
+    text-align: center;
+    background-image: linear-gradient(to right top, #353639, #2f343f, #293145, #222f4b, #182c51);
+    min-height: 100vh;
+    color: #fff;
+  }
+
+@import '../styles//pagestyles/LandingPage.scss';
+
+@import '../styles/support/graphics.scss';
+@import '../styles//support/buttons.scss'
+  
+  
