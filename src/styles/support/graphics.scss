@@ -1,0 +1,109 @@
+.phone{
+    border: 15px solid rgb(36, 35, 35);
+    background-color: $main_color_wht;
+    border-radius: 30px;
+    margin: 0 auto;
+    width:55%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.phone > .phone_title{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(163, 163, 163);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: $main_font;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.phone > div:nth-child(2){
+    flex: 1;
+    overflow: hidden;
+}
+
+.phonecard{
+    border-radius: 10px;
+    margin: 10px 15px;
+    padding: 10px 0;
+    background-color: rgb(36, 35, 35);
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+.phonecard > div{
+    text-align: center;
+    font-weight: 600;
+}
+.phonecard  .player{
+    color: rgb(129, 216, 243);
+    font-size:20px;
+}
+
+.phonecard > div:last-child, .phonecard > div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.phonecard > div:nth-child(3) > p{
+    margin: 0 5px;
+}
+.phonecard_img{
+    grid-row: 1/span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+.phonecard_img > span{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(36, 35, 35);
+}
+
+.phone_footer{
+    display: flex;
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(163, 163, 163);
+    padding: 5px 15px;
+}
+.phone_footer > div:first-child{
+    text-align: left;
+    font-family: $main_font;
+    font-weight: 600;
+    flex: 1;
+    border-left: 1px solid rgba(36, 35, 35, 0.247);
+    padding-left: 10px;
+}
+.phone_footer > div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-right: 1px solid rgba(36, 35, 35, 0.247);
+}
+
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }

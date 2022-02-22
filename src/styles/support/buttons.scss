@@ -1,0 +1,32 @@
+.support_button{
+    background-color: $main_color_grn;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.over_under_button{
+    background-color: rgb(129, 216, 243);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: $main_font;
+    transition: all 250ms
+    
+}
+.over_under_button:hover{
+    background-color: $main_color_grn;
+    color: #fff;
+}
+
+.confirm_button{
+    background-color: $main_color_grn;
+    font-family: $main_font;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+}
