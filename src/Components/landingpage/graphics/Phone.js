@@ -1,6 +1,5 @@
 import React from 'react'
 import PhoneCard from './PhoneCard'
-import { CSSTransition } from 'react-transition-group';
 
 const TitlePhone = () => {
   return (
