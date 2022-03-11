@@ -1,7 +1,7 @@
 .phone{
-    border: 15px solid rgb(36, 35, 35);
-    background-color: $main_color_wht;
-    border-radius: 30px;
+    border: 20px solid rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+    border-radius: 50px;
     margin: 0 auto;
     width:55%;
     height: 80%;
@@ -13,8 +13,8 @@
     color: black;
     font-size: 20px;
     background-color: rgb(163, 163, 163);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     font-family: $main_font;
     font-weight: 600;
     padding: 10px 0;
@@ -23,7 +23,9 @@
     flex: 1;
     overflow: hidden;
 }
-
+.phone > .phone_card_container{
+    background-color: #ffffff;
+}
 .phonecard{
     border-radius: 10px;
     margin: 10px 15px;
@@ -72,8 +74,8 @@
 .phone_footer{
     display: flex;
     color: black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background-color: rgb(163, 163, 163);
     padding: 5px 15px;
 }
@@ -82,7 +84,6 @@
     font-family: $main_font;
     font-weight: 600;
     flex: 1;
-    border-left: 1px solid rgba(36, 35, 35, 0.247);
     padding-left: 10px;
 }
 .phone_footer > div:last-child{
@@ -90,7 +91,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 10px;
-    border-right: 1px solid rgba(36, 35, 35, 0.247);
+
 }
 
 .my-node-enter {

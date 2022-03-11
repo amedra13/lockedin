@@ -2,7 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='landingpage_about'>
+    <div className="landingpage_about_container">
+      <div className='landingpage_about'>
         <div className="about_title">
             <h1>Why Should you <span class='highlight'>Join</span>?</h1>
         </div>
@@ -11,6 +12,7 @@ const About = () => {
            <p>Even after the launch to keep the projects up-to-date and regularly boosted, we’ll provide you with constant support.</p>
         </div>
         <div className="test"></div>
+    </div>
     </div>
   )
 }

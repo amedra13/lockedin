@@ -8,7 +8,7 @@ const TitlePhone = () => {
           <span className='mdi mdi-format-align-justify'></span>
           <p>LockedIn</p>
         </div>
-        <div>
+        <div class='phone_card_container'e>
           <PhoneCard/>  
           <PhoneCard/>  
           <PhoneCard/>  

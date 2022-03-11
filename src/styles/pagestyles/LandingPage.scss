@@ -66,11 +66,16 @@
 }
 
 // --------------------> Landing About  
+.landingpage_about_container{
+    background-color: #F8FBFB;
+    padding:130px 0;
+}
 
 .landingpage_about{
     @include landingpage_containers;
     height: 80vh;
-    background-color: rgb(17, 17, 17);
+    border:2px solid green;
+    color:#000000;
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,4 +111,14 @@
 .highlight{
     color:$main_color_grn;
 
+}
+
+// ----------------------------------- Landing page bets
+.landingpage_bets_container{
+    height: 80vh;
+    padding: 120px;
+}
+.landingpage_bets{
+    @include landingpage_containers;
+    border: 2px solid green;
 }
